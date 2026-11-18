@@ -1,0 +1,17 @@
+.counter{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 16px;
+}
+
+.counter-number{
+    background-color: rgb(50, 0, 70);
+    color: #fefefe;
+    padding: 12px;
+    border-radius: 12px;
+    font-size: 40px;
+    font-weight: bold;
+    min-width: 80px;
+    text-align: center;
+}

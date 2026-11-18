@@ -1,0 +1,52 @@
+.home h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 24px;
+   color:rgb(46, 46, 46)
+}
+
+.countdown-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+  color:rgb(46, 46, 46)
+}
+
+.countdown-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.countdown-form span {
+    font-weight: 600;
+}
+
+.countdown-form input{
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #aaa
+}
+
+.countdown-form input[type="color"] {
+    padding: 2px;
+}
+
+
+.countdown-form input[type="submit"]{
+    background-color: #49019b;
+    font-size: 16px;
+    color:aliceblue;
+    font-weight: 600;
+    width: 150px;
+    padding: 8px;
+    cursor:pointer;
+    opacity: 0.85;
+    transition: 0.5s;
+}
+
+.countdown-form input[type="submit"]:hover{
+    opacity: 1;
+}
